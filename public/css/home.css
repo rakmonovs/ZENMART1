@@ -2,6 +2,43 @@
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
+
+.container .category_top {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .category_top span {
+    font-family:"Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #041e42;   
+}
+
+.container .category_top a {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #041e42;   
+}
+
+
+.container .category_top a:hover {
+    border-bottom: 2px solid #041e42;
+}
+
+
+
+
 }
 .header_frame {
     position: relative;
@@ -185,6 +222,8 @@
 
 
 /* SERVICE*/
+
+
 .home_page .service_frame {
     position: relative;
     margin-top: 30px;
@@ -336,7 +375,246 @@
     font-size: 16px;
     line-height: 28px;
     text-align: center;
-    color: #041e42;    
+    color: #041e42;   
+}
+
+
+/*SELLING*/
+
+
+.selling_frame {
+   position: relative;
+   margin-top: 60px;
+   width: 100%;
+   height: auto;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+
+.selling_frame .container {
+    flex-direction: column;
+}
+
+.selling_frame .container .product_wrapper {
+    position:relative;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.selling_frame .product_wrapper .next_view {
+    width: 25px;
+}
+
+.selling_frame .next_view img {
+    position: absolute;
+    top: 50%;
+}
+
+.selling_frame .product_wrapper .product_boxes {
+    position: relative;
+    width: 1224px;
+    height: 452px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.selling_frame .product_boxes .product_box {
+    width: 306px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.selling_frame .product_box .product_img_box {
+    width: 100%;
+    height: 280px;
+
+}
+
+
+.selling_frame .product_img_box .hover_box {
+    display: none;
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.selling_frame .hover_box button{
+    margin-bottom: 10px;
+    width: 260px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+
+    background: #0053f6;
+    box-shadow: 0px 5px 20px rgba(0, 83, 246, 0.1);
+    border-radius: 6px;
+
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;  
+
+}
+
+
+.selling_frame .product_img_box:hover .hover_box {
+    display: flex;
+}
+
+.selling_frame .product_box .product_content_box {
+    padding: 5px 22px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.selling_frame .product_content_box .product-title{
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #626974;  
+
+}
+
+.selling_frame .product_content_box .product_desc{
+    margin-top: 7px;
+    height: 56px;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    overflow: hidden;
+    color: #041e42;
+}
+
+
+.selling_frame .product_content_box .review_box {
+    margin-top: 7px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.selling_frame .review_box img {
+    margin-right: 5px;
+}
+
+.selling_frame .review_box span {
+    margin-left: 10px;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #626974;  
+}
+
+
+.selling_frame .product_content_box .price_box {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.selling_frame .price_box strong {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #041e42;  
+}
+
+
+.selling_frame .price_box span {
+    margin-left: 10px;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: line-through;
+    color: #626974;  
+}
+
+.container .product_gg_box {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.product_gg_box .product_gg_main {
+    width:auto;
+    height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+
+.product_gg_main .gg_dot{
+    margin: 0 20px;
+     display: flex;
+     flex-direction: row;
+}
+
+.gg_dot .dot {
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.gg_dot .dot.active{
+    border: 2px solid #112137;
+}
+
+
+
+.gg_dot .dot div{
+    width: 4px;
+    height: 4px;
+    background: #112137;
+    
 }
 
 
@@ -344,8 +622,6 @@
 
 
 
-
-
-
+    
 
 
