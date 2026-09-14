@@ -860,6 +860,26 @@
     align-items: center;
 }
 
+.slider_box {
+    width: 100%;
+}
+
+.slider_box .slider_box_main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider_box .slider_head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
 
 
 
