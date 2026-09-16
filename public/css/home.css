@@ -1,5 +1,5 @@
 .home_page{
-    padding-bottom: 60px;
+
     display: flex;
     flex-direction: column;
 
@@ -860,6 +860,7 @@
     align-items: center;
 }
 
+/* EVENT*/
 .home_page .event_frame {
     position: relative;
     margin-top: 90px;
@@ -1005,6 +1006,8 @@
 .event_product_box .product_content_box {
     margin-top: 30px;
 }
+
+
 
 
 
