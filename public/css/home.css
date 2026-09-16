@@ -1,3 +1,6 @@
+:root{
+--font: "Jost";
+}
 .home_page{
 
     display: flex;
@@ -14,7 +17,7 @@
 }
 
 .container .category_top span {
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -23,7 +26,7 @@
 }
 
 .container .category_top a {
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -152,7 +155,7 @@
     background: #f5c34b;
     border-radius: 6px;
 
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -165,7 +168,7 @@
     margin-top: 10px;
     width: 428px;
 
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 68px;
@@ -175,7 +178,7 @@
 
  .header_frame .header_content p{
     margin-top: 10px;
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -195,7 +198,7 @@
     background: #ffffff;
     border-radius: 6px;
 
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -244,7 +247,7 @@
 }
 
 .header_frame .box_left span{
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -254,7 +257,7 @@
 
 .header_frame .box_left p {
     margin: 10px;
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -263,7 +266,7 @@
 }
 
  .header_frame .box_left a {
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -327,7 +330,7 @@
 }
 
 .service_frame .service_content span {
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -337,7 +340,7 @@
 
 
 .service_frame .service_content p {
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -377,7 +380,7 @@
 
 
 .shop_category_frame .category_top span {
-    font-family:"Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -386,7 +389,7 @@
 }
 
 .shop_category_frame .category_top a {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -433,7 +436,7 @@
 
 .shop_category_frame .category_box span {
     margin-top: 15px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -526,7 +529,7 @@
     box-shadow: 0px 5px 20px rgba(0, 83, 246, 0.1);
     border-radius: 6px;
 
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -548,7 +551,7 @@
 }
 
 .selling_frame .product_content_box .product-title{
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -561,7 +564,7 @@
 .selling_frame .product_content_box .product_desc{
     margin-top: 7px;
     height: 56px;
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -585,7 +588,7 @@
 
 .selling_frame .review_box span {
     margin-left: 10px;
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -604,7 +607,7 @@
 }
 
 .selling_frame .price_box strong {
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -615,7 +618,7 @@
 
 .selling_frame .price_box span {
     margin-left: 10px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -635,7 +638,7 @@
     justify-content: center;
 
     background-color: #E5EDFF;
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -693,7 +696,7 @@
 }
 
  .spec_product_frame .big_box span{
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -703,7 +706,7 @@
 
 .spec_product_frame .big_box p {
     margin: 7px 0px;
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
@@ -712,7 +715,7 @@
 }
 
 .spec_product_frame .big_box a {
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -761,7 +764,7 @@
 }
 
 .spec_product_frame .small_product_content strong {
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -770,7 +773,7 @@
 }
 
 .spec_product_frame .small_product_content span {
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -808,7 +811,7 @@
 }
 .category_top a {
     margin-left: 30px;
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -888,7 +891,7 @@
 }
 
 .event_frame .event_content_box .title {
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -913,7 +916,7 @@
 }
 
 .event_frame .timer_box strong {
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -923,7 +926,7 @@
 
 
 .event_frame .timer_box span {
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -943,7 +946,7 @@
     border: 1px solid #ffffff;
     border-radius: 6px;
 
-    font-family: "Jost";
+    font-family:  var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
