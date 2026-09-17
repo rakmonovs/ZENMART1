@@ -466,33 +466,50 @@
 }
 
 .selling_frame .container .product_wrapper {
-    position:relative;
+    position: relative;
     margin-top: 30px;
     width: 100%;
-    height: auto;
-    justify-content: space-between;
+    height: 452px;
 
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
+  
+
 
 /*hi*/
 
 .selling_frame .product_wrapper .product_boxes {
-    position: relative;
+   position: relative;
     width: 1224px;
     height: 452px;
 
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
 }
+
+
+.selling_frame .product_wrapper .next_view {
+   
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+
+
+
 
 .selling_frame .product_boxes .product_box {
     width: 306px;
     height: 100%;
 
+   
+
     display: flex;
     flex-direction: column;
+    flex: 0 0 306px;
     cursor: pointer;
 }
 
